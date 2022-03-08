@@ -23,7 +23,7 @@ const Signup = () => {
                         <input className='sign' type="text" placeholder='Password' />
                     </div>
                 </div>
-                <button className='btn'>Sign Up</button>
+                {/* <button className='btn'>Sign Up</button> */}
             </div>    
         </>
     )

@@ -12,6 +12,7 @@ body {
 .head {
   background-color: black;
   z-index: -1;
+  height: 85px;
 }
 .logo {
   width: 150px;
@@ -83,6 +84,7 @@ input {
   margin-bottom: 0.5rem;
   height: 3rem;
   border-radius: 7px;
+  border: none;
 }
 .link::after {
   content: "";
@@ -110,13 +112,15 @@ input {
 }
 .bttn {
   margin-top: 30px;
+  padding-left: 2px;
+  /* display: block; */
 }
 .btn {
   background: orangered;
   border-radius: 30px;
   color: #f4f4f4;
+  margin-left: 7px;
   padding: 0.5rem 2rem;
-  display: block;
   margin-bottom: 1.5rem;
 }
 .bttn .btn:hover {
@@ -127,7 +131,8 @@ input {
 
 /* the beginning */
 .africa {
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/677/106/489/design-style-sofa-interior-wallpaper-preview.jpg");
+  /* background-image: url("https://c4.wallpaperflare.com/wallpaper/677/106/489/design-style-sofa-interior-wallpaper-preview.jpg"); */
+  background-image: url("https://images.unsplash.com/photo-1565374395542-0ce18882c857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -243,6 +248,7 @@ input {
 .gender {
   border: 1px solid #444;
   padding: 4px;
+  margin-right: 5px;
 }
 .male {
   background: red;
@@ -412,12 +418,15 @@ input {
   }
   .bttn {
     display: flex;
-    margin-top: 5px;
+    margin-top: 1px;
     padding-left: 20px;
   }
   .btn {
-    font-size: 12px;
-    height: 2rem;
+    font-size: 15px;
+    padding: 1px 20px;
+    /* height: 3rem; */
+    justify-content: center;
+    align-items: center;
     margin-left: 20px;
   }
   .africa {
